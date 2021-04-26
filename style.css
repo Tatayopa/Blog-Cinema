@@ -1,0 +1,102 @@
+@import url("components/banner.css");
+
+
+body {background: #333333;
+color: #333333;
+font-family:'Josefin Sans', sans-serif;;
+font-size: 25px;
+font-weight: 400;
+margin :20px;}
+
+h1
+{text-align:center;
+font-size: 50px;
+font-family: 'Bebas Neue', cursive;
+font-weight: 300;
+color: #ffffff;
+margin :50px auto;
+}
+
+h2,h3,h4,h5{font-family: 'Bebas Neue', cursive;;
+text-align: center;
+font-size: 30px;
+color:#333333;}
+
+h6{font-family: 'Bebas Neue', cursive;
+text-align: center;
+font-size: 30px;
+color:#ffffff;}
+
+
+a{text-decoration: none;
+color: #ffffff;
+font-family:'Bebas Neue', cursive; }
+
+a:hover {color: #ffffff}
+
+
+.logo{width:200px;
+height: 200px;
+text-align: center;
+padding-left: 0px;}
+
+.TATAYOPA {text-align: center;}
+
+.bong{border-radius:5%;}
+
+
+.Button {  background: black;
+    padding: 15px 20px;
+    width: 300px;
+    margin: 30px auto;
+    box-shadow: 0px 5px 10px;
+border-radius: 10px;
+text-align: center;}
+
+.Button:hover {background-color: #ffc75f;
+color: #ffffff;}
+
+ .Bloc {  background: white;
+    padding: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 700px;
+    margin: 40px auto;
+    box-shadow: 0px 5px 10px;
+border-radius: 10px;
+text-align: center;
+}
+
+
+.icon {color: white;
+text-align: center;}
+
+.icon:hover {color: yellow}
+
+.list{list-style: none;
+padding-left: 0px}
+
+.list li{
+display: inline;
+padding: 10px;}
+
+.list i {font-size: 50px}
+
+.Last {text-align: center;}
+
+
+
+@media (max-width: 760px) {
+ .container {
+ 	width: 600px;
+ }
+}
+
+@media (max-width: 540px) {
+ .container {
+ 	width: 400px;
+ }
+}
+
+@import url("components/banner.css")
+
